@@ -86,14 +86,14 @@ case $z in
 		;;
 	2)
 		banner
-		$green ::::: MENU PY :::::::
+		printf "$green           ::::: MENU PY :::::::"
 		sleep 5
 		echo
 		python menu.py
 		;;
 	3)
 		banner
-		$green :::: MENU BASH ::::
+		printf "$green            :::: MENU BASH ::::"
 		sleep 5
 		bash menu
 		;;
