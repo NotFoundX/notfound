@@ -20,7 +20,7 @@ _   _  ___ _____   _____ ___  _   _ _   _ ____
 setterm -foreground black
 sleep 5
 echo
-printf "R$ elije una opcion$G
+printf "$R elije una opcion$G
 
 1) ?????????????
 2) ?????????????
@@ -33,37 +33,50 @@ printf "$Y"
 read -p " elije una opcion >> " opc
 case $opc in
 	1)
-		printf "elejiste la opcion 1....")
+		
+		echo
+		echo "elejiste la opcion 1...."
 		sleep 5
-		printf " ESTA OPCION HAY QUE CONFIGURARLA ")
+		echo
+		echo " ESTA OPCION HAY QUE CONFIGURARLA "
 		sleep 2
 		exit
 		;;
 	2)
-		printf "elejiste la opcion 2....")
+		echo
+		echo "elejiste la opcion 2...."
                 sleep 5
-                printf " ESTA OPCION HAY QUE CONFIGURARLA ")
+		echo
+                echo " ESTA OPCION HAY QUE CONFIGURARLA "
 		sleep 2
 		exit
 		;;
 	3)
-		printf "elejiste la opcion 3....")
+		echo
+		echo  "elejiste la opcion 3...."
                 sleep 5
-                printf " ESTA OPCION HAY QUE CONFIGURARLA ")
+		echo
+                echo " ESTA OPCION HAY QUE CONFIGURARLA "
 		sleep 2
 		exit
 		;;
 	4)
-		printf "elejiste la opcion 5....")
+		echo
+	
+		echo "elejiste la opcion 5...."
                 sleep 5
-                printf " ESTA OPCION HAY QUE CONFIGURARLA ")
+		echo
+                echo " ESTA OPCION HAY QUE CONFIGURARLA "
 		sleep 2
 		exit
 		;;
 	5)
-		printf "elejiste la opcion 5....")
+		echo
+		echo "elejiste la opcion 5...."
                 sleep 5
-                printf " ESTA OPCION HAY QUE CONFIGURARLA ")
+		echo
+                echo" ESTA OPCION HAY QUE CONFIGURARLA "
 		sleep 2
 		exit
 		;;
+esac
