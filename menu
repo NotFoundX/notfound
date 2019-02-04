@@ -1,0 +1,69 @@
+#!/usr/bin/env bash
+#
+#:LXMeNuUsrs
+#Colors                                                               
+R='\033[1;31m'
+G='\033[1;32m'                                                         
+Y='\033[1;33m'                                                         
+B='\033[1;3m'
+M='\033[1;35m'
+C='\033[1;36m'                                                         
+W='\033[0m'
+setterm -foreground white
+echo '
+_   _  ___ _____   _____ ___  _   _ _   _ ____
+| \ | |/ _ \_   _| |  ___/ _ \| | | | \ | |  _ \
+|  \| | | | || |   | |_ | | | | | | |  \| | | | |
+| |\  | |_| || |   |  _|| |_| | |_| | |\  | |_| |
+|_| \_|\___/ |_|   |_|   \___/ \___/|_| \_|____/ 
+'
+setterm -foreground black
+sleep 5
+echo
+printf "R$ elije una opcion$G
+
+1) ?????????????
+2) ?????????????
+3) ?????????????
+4) ?????????????
+5) ?????????????
+"
+echo
+printf "$Y"
+read -p " elije una opcion >> " opc
+case $opc in
+	1)
+		printf "elejiste la opcion 1....")
+		sleep 5
+		printf " ESTA OPCION HAY QUE CONFIGURARLA ")
+		sleep 2
+		exit
+		;;
+	2)
+		printf "elejiste la opcion 2....")
+                sleep 5
+                printf " ESTA OPCION HAY QUE CONFIGURARLA ")
+		sleep 2
+		exit
+		;;
+	3)
+		printf "elejiste la opcion 3....")
+                sleep 5
+                printf " ESTA OPCION HAY QUE CONFIGURARLA ")
+		sleep 2
+		exit
+		;;
+	4)
+		printf "elejiste la opcion 5....")
+                sleep 5
+                printf " ESTA OPCION HAY QUE CONFIGURARLA ")
+		sleep 2
+		exit
+		;;
+	5)
+		printf "elejiste la opcion 5....")
+                sleep 5
+                printf " ESTA OPCION HAY QUE CONFIGURARLA ")
+		sleep 2
+		exit
+		;;
