@@ -30,7 +30,13 @@ WW*...............$white-#WWWW@:$red...........*W $white|_|  \___/ \__,_|_| |_|\
         +@WWW#+-........-+#WWW@+           
             *@WWWWWWWWWWWW@*
 $white"
-sleep 2
+sleep 7
+for i in ---------@ TEAM------------@ NOT---------@ FOUND----------@ TEAM-NOT-FOUND; do
+	printf "$G $(clear) STARTING TO INSTALL . . . .$W$i\n\n"
+	sleep 4
+done
+echo
+echo
 printf "$cyan ==================================$white 
 $magenta Instalando los paquetes necesarios$white 
 $cyan ==================================$white
@@ -49,9 +55,8 @@ printf "$yellow Elegir Lenguaje // set Languague$white
 $green 1) English$white
 $green 2) Español$white
 "
-while read -n 1 -p ">> " opc && [ -z $opc ]; do
-	printf "$red Escribe algo // type something$white"
-done
+echo
+read -p ">> " opc
 case $opc in
 1)
 	bash english
