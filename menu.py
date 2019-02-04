@@ -67,5 +67,7 @@ while True:
         time.sleep(5)
         sys.exit()
     else:
+        print("")
         print(" opcion incorrecta")
+        time.sleep(5)
 
