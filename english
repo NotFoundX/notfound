@@ -31,8 +31,8 @@ WW*...............$white-#WWWW@:$red...........*W $white|_|  \___/ \__,_|_| |_|\
   WW#..............................#WW
    @W@-...........$white:WW:$red...........-@W@
     =WW#..........$white-**-$red..........#WW=
-       #WW@+..................+@WW#        $green 1) SPANISH$red
-        +@WWW#+-........-+#WWW@+           $green 0) EXIT$red
+       #WW@+..................+@WW#        
+        +@WWW#+-........-+#WWW@+           
             *@WWWWWWWWWWWW@*
 $white"
 
@@ -68,9 +68,13 @@ echo
 printf "$green"
 echo
 printf "$green        
+           1) Traducir
+
            2) MENU PY
 	   
 	   3) MENU BASH
+
+	   0) Exit//Salir
 "
 echo
 read -p "Chose an Option >> " z
