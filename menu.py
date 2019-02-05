@@ -24,7 +24,7 @@ while True:
     if opcionMenu =="1":
         print("")
         os.system('clear')
-        os.system('python modules/gmail.py')
+        os.system('python modules/prog.py')
     elif opcionMenu =="2":
         print("")
         print(" presionaste la tecla 2")
