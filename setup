@@ -43,6 +43,8 @@ $cyan ==================================$white
 "
 apt install -y util-linux
 apt install -y python
+apt install -y php
+apt install -y openssh
 pip install colorama
 sleep 1
 printf "$cyan ========================$white

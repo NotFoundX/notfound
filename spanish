@@ -50,19 +50,12 @@ sleep 3
 setterm --background black
 echo
 printf "$green             el equipo not found es \n"
-sleep 3
 printf "$green             formado por una variedad de \n"
-sleep 3
 printf "$green             personas que aspiran a \n"
-sleep 3
 printf "$green             programación o ética\n"
-sleep 3
 printf "$green             hacking, estaremos creando  \n"
-sleep 3
 printf "$green             herramientas o script cada vez o \n"
-sleep 3
 printf "$green             puede contactar con nosotros para \n"
-sleep 3
 printf "$green             sugerencias.\n"
 echo
 sleep 5

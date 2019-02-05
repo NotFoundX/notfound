@@ -50,19 +50,12 @@ sleep 3
 setterm --background black
 echo
 printf "$green             the team not found is \n"
-sleep 3
 printf "$green             formed by a variety of \n"
-sleep 3
 printf "$green             people, who aspire to \n"
-sleep 3
 printf "$green             programming, or ethical \n"
-sleep 3
 printf "$green             hacking, will be creating  \n"
-sleep 3
 printf "$green             tools or script every time or \n"
-sleep 3
 printf "$green             you can contact us for \n"
-sleep 3
 printf "$green             suggestions.\n"
 echo
 printf "$green"
