@@ -1,3 +1,16 @@
 #!/bin/env python
-import sys, os
+import sys, os,time
+print (" HOLA, NECESITAS REALIZAR TODAS LAS FUNCIONES DE LAS IMAGENES.")
+time.sleep(2)
+print()
+input("ENTER PARA VER IMAGEN 1")
+print()
+os.system("termux-open modules/.error3.png")
+input("ENTER PARA VER IMAGEN 2")
+print()
+os.system("termux-open modules/.error2.png")
+input("ENTER PARA VER IMAGEN 3")
+print()
 os.system("termux-open modules/.error.png")
+print()
+print("SI AUN ESTA EL ERROR, REVISA BIEN TU CORREO E PASSWORD")
